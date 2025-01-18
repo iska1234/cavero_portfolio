@@ -1,0 +1,89 @@
+{
+    "index":{
+        "title":"Portafolio Cavero",
+        "banner":"Convierta la visión en realidad con código y diseño.",
+        "subtitle": "Como desarrollador full-stack calificado, me dedico a convertir ideas en aplicaciones web innovadoras. Explore mis últimos proyectos y artículos, que muestran mi experiencia en React.js y desarrollo web.",
+        "arrow":"Resumen ",
+        "contact":"Contáctame"
+    },
+    "navbar":{
+        "title1":"Inicio",
+        "title2":"Sobre Mí",
+        "title3":"Proyectos",
+        "title4":"Articulos",
+        "title5":"Servicios"
+    },
+    "footer":{
+        "rights":"Todos los derechos reservados.",
+        "made":"Hecho",
+        "by":"por",
+        "slogan":"¡Di Hola!"
+    },
+    "about":{
+        "title":"Página Sobre Mí",
+        "banner":"¡La pasión alimenta el propósito!",
+        "subtitle": "Biografía",
+        "desc1":"Hola, soy Siceh Developer, un entusiasta desarrollador Fullstack y diseñador UI/UX, apasionado por crear experiencias digitales hermosas y funcionales. Con 3 años de inmersión en el campo, mi enfoque radica en hacer realidad las visiones de mis clientes a través de soluciones innovadoras.",
+        "desc2":"Para mí el diseño va más allá de la estética; se trata de resolver problemas y desarrollar experiencias intuitivas y agradables para los usuarios.",
+        "desc3":"Ya sea creando un sitio web, una aplicación móvil u otro producto digital, aplico mi compromiso con la excelencia en el diseño y un enfoque centrado en el usuario en cada proyecto en el que participo. Espero poder aportar mis habilidades y pasión a su próximo proyecto.",
+        "goal1":"Clientes Satisfechos",
+        "goal2":"Proyectos Completados",
+        "goal3":"Años de Experiencia",
+        "titleskill":"Habilidades"
+    },
+    "experience":{
+        "title":"Experiencia",
+        "position1":"Desarrollador Web",
+        "company1":"Digital Media Balance",
+        "time1":"Enero 2024",
+        "address1":"Lima, Perú",
+        "work1":"Actualmente lidero la creación y mantenimiento de sitios, especializándome en la personalización de temas y gestión eficiente de contenidos. Mi enfoque en las mejores prácticas garantiza entregas de alta calidad y un fácil mantenimiento.",
+        "position2":"Practicante Desarrollador FullStack Javascript",
+        "company2":"Grupo Agiltech",
+        "time2":"Octubre 2023",
+        "address2":"Lima, Perú",
+        "work2":"Formé parte de un equipo como desarrollador frontend usando React, además de contribuir al desarrollo backend con JavaScript. Estamos trabajando en implementar una nueva funcionalidad para una aplicación, permitiendo a los usuarios interactuar con la plataforma de una manera más dinámica. Esto incluyó diseñar y codificar la interfaz de usuario usando React, así como también crear la infraestructura del servidor usando JavaScript para admitir esta funcionalidad, desde la gestión de datos hasta la interacción en tiempo real.",
+        "position3":"Desarrollador Web",
+        "company3":"Agencia JF",
+        "time3":"Junio 2023",
+        "address3":"Lima, Perú",
+        "work3":"Participé en un equipo responsable de desarrollar una nueva característica para un sitio web de comercio electrónico, permitiendo a los usuarios navegar y comprar productos de manera más intuitiva y eficiente. Esto implicó el diseño e implementación de una interfaz de usuario renovada, así como la integración de funcionalidades frontend para mejorar la experiencia de compra, desde la exhibición del producto hasta el proceso de pago.",
+       
+        "position4":"Desarrollador Android",
+        "company4":"Inversiones MyM",
+        "time4":"Julio 2023",
+        "address4":"Lima, Perú",
+        "work4":"Participé como desarrollador en la creación de una aplicación móvil en Kotlin para un sistema de venta de productos naturales. Desarrollamos un backend sólido con Node.js y PostgreSQL. La aplicación cuenta con un completo módulo administrativo para el control de inventario y gestión de pedidos, así como funcionalidades de entrega para el seguimiento de las entregas en tiempo real. Mi función incluía el desarrollo front-end en Kotlin y una integración perfecta con el backend para garantizar un procesamiento de datos eficiente entre la aplicación y el servidor."
+    },
+    "education":{
+        "title":"Educacion",
+        "type1":"Técnico en Desarrollo de Sistemas de Información",
+        "time1":"2021-2023 | Completado",
+        "info1":"Terminé mi carrera en Desarrollo de Sistemas de Información en IDAT y formé parte de un equipo encargado de desarrollar una nueva funcionalidad para un sitio web de comercio electrónico. Este trabajo consistió en permitir a los usuarios navegar y adquirir productos de forma más fluida y eficiente. Participé activamente en el diseño y ejecución de una renovada interfaz de usuario, así como en la incorporación de elementos frontend para mejorar toda la experiencia de compra, desde la presentación del producto hasta la etapa de pago.",
+        "type2":"Especialización FullStack",
+        "time2":"2023-2024 | En progreso",
+        "info2":"Actualmente me encuentro en el proceso de completar una especialización integral Full Stack, con un enfoque inicial en HTML, CSS y JavaScript, continuando mi aprendizaje específicamente en React para desarrollo frontend y Node.js para backend. He ido adquiriendo habilidades en bases de datos relacionales y estoy trabajando activamente en mejorar mi dominio del inglés, reconociendo su relevancia en el entorno tecnológico actual. Este proceso de educación continua me está brindando una comprensión sólida de ambos lados del desarrollo web, junto con una mejora constante en mis habilidades con bases de datos y mi fluidez en inglés."
+    },
+    "projects":{
+        "title":"Página de Proyectos",
+        "banner":"¡La imaginación triunfa sobre el conocimiento!",
+        "visit":"Visitar el Proyecto",
+        "normal":"Proyecto",
+        "progress":"Proyecto (Despliegue en Progreso)"
+    },
+    "articles":{
+        "title":"Página de Artículos",
+        "banner":"¡Las palabras pueden cambiar el mundo!",
+        "subtitle":"Todos los Artículos"
+    },
+    "articleDetails":{
+        "route":"es/articledetails",
+        "title_article1":"Los mejores Frameworks frontend para el desarrollo web en 2024",
+        "title_article2":"ReactJS avanzado: mejores prácticas para React + Redux + Sagas"
+    },
+    "cvLink": {
+        "lng": "https://drive.google.com/file/d/1TxnrvLOZ5O_QNyA2DityutbgWPYAhbv4/view?usp=sharing"
+    }
+
+
+}

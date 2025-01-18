@@ -1,0 +1,92 @@
+{
+    "index":{
+        "title":"Cavero Portfolio",
+        "banner":"Turn vision into reality with code and design.",
+        "subtitle": "As a qualified full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, showcasing my experience in React.js and web development.",
+        "arrow":"Resume ",
+        "contact":"Contact me"
+    },
+    "navbar":{
+        "title1":"Index",
+        "title2":"About me",
+        "title3":"Projects",
+        "title4":"Articles",
+        "title5":"Services"
+    },
+    "footer":{
+        "rights":"All rights reserved.",
+        "made":"Made",
+        "by":"by",
+        "slogan":"Say Hello!"
+    },
+    "about":{
+        "title":"About me Page",
+        "banner":"Passion fuels purpose!",
+        "subtitle": "Biography",
+        "desc1":"Hi, I'm Siceh Developer, an enthusiastic Fullstack developer and UI/UX designer, passionate about creating both beautiful and functional digital experiences. With 3 years of immersion in the field, my focus lies in bringing my clients' visions to reality through innovative solutions.",
+        "desc2":"For me, design goes beyond aesthetics; it's about solving problems and developing intuitive and enjoyable experiences for users.",
+        "desc3":"Whether building a website, mobile app, or other digital product, I apply my commitment to design excellence and a user-centered approach to every project I'm involved with. I look forward to bringing my skills and passion to your next project.",
+        "goal1":"Satisfied Customers",
+        "goal2":"Completed Projects",
+        "goal3":"Years of experience",
+        "titleskill":"Skills"
+    },
+    "experience":{
+        "title":"Experience",
+        "position1":"Web Developer",
+        "company1":"Digital Media Balance",
+        "time1":"January 2024",
+        "address1":"Lima, Perú",
+        "work1":"I currently lead the creation and maintenance of sites,specializing in theme customization and management efficient content. My focus on best practices guarantees high quality deliveries and easy maintenance.",
+        "position2":"Fullstack Javascript Developer Intern",
+        "company2":"Agiltech Group",
+        "time2":"October 2023",
+        "address2":"Lima, Perú",
+        "work2":"I was part of a team as a frontend developer using React, in addition to contributing to the backend development with JavaScript. We are working on implementing new functionality for an application, allowing users to interact with the platform in a more dynamic way. This included designing and coding the user interface using React, as well as creating the server infrastructure using JavaScript to support this functionality, from data management to real-time interaction.",
+        "position3":"Web Developer",
+        "company3":"Agency JF",
+        "time3":"June 2023",
+        "address3":"Lima, Perú",
+        "work3":"I participated in a team responsible for developing a new feature for an ecommerce website, allowing users to browse and purchase products more intuitively and efficiently. This involved the design and implementation of a revamped user interface, as well as the integration of frontend functionalities to improve the shopping experience, from product display to the checkout process.",
+       
+        "position4":"Android Developer",
+        "company4":"MyM Investments",
+        "time4":"July 2023",
+        "address4":"Lima, Perú",
+        "work4":"I participated as a developer in the creation of a mobile application in Kotlin for a sales system for natural products. We developed a solid backend with Node.js and PostgreSQL. The app has a complete administrative module for inventory control and order management, as well as delivery functionalities for real-time tracking of deliveries. My role included front-end development in Kotlin and seamless integration with the backend to ensure efficient data processing between the application and the server."
+    },
+    "education":{
+        "title":"Education",
+        "type1":"Information Systems Development Technician",
+        "time1":"2021-2023 | Completed",
+        "info1":"I have completed my degree in Information Systems Development at IDAT and was part of a team in charge of developing a new functionality for an ecommerce website. This work consisted of allowing users to browse and purchase products more fluidly and efficiently. I actively participated in the design and execution of a renewed user interface, as well as the incorporation of frontend elements to improve the entire shopping experience, from product presentation to the payment stage.",
+        "type2":"FullStack Specialization",
+        "time2":"2023-2024 | In Progress",
+        "info2":"I am currently in the process of completing a comprehensive Full Stack specialization, with an initial focus on HTML, CSS and JavaScript, continuing my learning specifically in React for frontend development and Node.js for backend. I have been acquiring skills in relational databases and am actively working on improving my English proficiency, recognizing its relevance in today's technological environment. This continuing education process is giving me a solid understanding of both sides of web development, along with constant improvement in my database skills and English fluency."
+    },
+    "projects":{
+        "title":"Projects Page",
+        "banner":"Imagination triumphs over knowledge!",
+        "visit":"Visit the Project",
+        "feature":"Featured Project",
+        "normal":"Project",
+        "progress":"Project (Deploy in Progress)"
+    },
+    "articles":{
+        "title":"Articles Page",
+        "banner":"Words can change the world!",
+        "subtitle":"All Articles"
+    },
+    "articleDetails":{
+        "route":"/articledetails",
+        "title_article1":"Best Frontend Frameworks for Web Development in 2024",
+        "title_article2":"Advanced ReactJS: Best Practices for React + Redux + Sagas"
+    },
+    "cvLink": {
+        "lng": "https://drive.google.com/file/d/1ZJegSoNuHJi9T5S_0lfw0O6mm3RSvSyH/view?usp=drive_link"
+    }
+
+   
+
+
+}
