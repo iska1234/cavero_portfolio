@@ -75,7 +75,14 @@
         "banner":"¡La imaginación triunfa sobre el conocimiento!",
         "visit":"Visitar el Proyecto",
         "normal":"Proyecto",
-        "progress":"Proyecto (Despliegue en Progreso)"
+        "progress":"Proyecto (Despliegue en Progreso)",
+        "feature":"Proyecto Destacado",
+        "summary":{
+            "summary1":"El proyecto es un CRM (Customer Relationship Management) construido con React y TypeScript para el frontend, mientras que el backend utiliza Node.js, Express y MongoDB. La aplicación está diseñada para gestionar relaciones con los clientes, permitiendo un seguimiento eficiente de la información y las interacciones. Además, utiliza sockets para la comunicación en tiempo real, lo que permite actualizaciones instantáneas entre el cliente y el servidor, mejorando la experiencia del usuario y la eficiencia en la gestión de datos.",
+            "summary2":"Este proyecto es una aplicación de gestión de proyectos y tareas, desarrollada con Angular en el frontend y Node.js con TypeScript en el backend. Utiliza PostgreSQL como base de datos para almacenar la información. Incluye características como la visualización de proyectos con diagramas de Gantt, líneas de tiempo, agendamiento de reuniones, y subida de archivos. La aplicación facilita la organización y seguimiento de tareas, permitiendo a los usuarios gestionar sus proyectos de manera eficiente y colaborar en tiempo real.",
+            "summary3":"El proyecto Support Guide es una aplicación de guía para el conocimiento básico en el rol de soporte, desarrollada con React para el frontend y Node.js para el backend. El objetivo de la guía es proporcionar una estructura para aprender y comprender los fundamentos del rol de soporte. La aplicación permite acceder a recursos y tutoriales relacionados con el soporte, mientras que el backend en Node.js gestiona la lógica y las interacciones necesarias para mantener y servir los datos del frontend.",
+            "summary4":"El proyecto Banco de la Peseta es una aplicación de banca digital desarrollada utilizando Angular para el frontend y Spring Boot para el backend. Su objetivo es proporcionar a los usuarios una experiencia bancaria perfecta, ofreciendo interfaces intuitivas y funcionalidades integrales. Con funciones como administración de cuentas, transferencias de fondos, pago de facturas y más, el Banco de la Peseta prioriza la seguridad y la escalabilidad para garantizar una plataforma confiable para las transacciones financieras."
+        }
     },
     "articles":{
         "title":"Página de Artículos",
@@ -83,12 +90,12 @@
         "subtitle":"Todos los Artículos"
     },
     "articleDetails":{
-        "route":"es/articledetails",
+        "route":"articles",
         "title_article1":"Los mejores Frameworks frontend para el desarrollo web en 2024",
         "title_article2":"ReactJS avanzado: mejores prácticas para React + Redux + Sagas"
     },
     "cvLink": {
-        "lng": "https://drive.google.com/file/d/1TxnrvLOZ5O_QNyA2DityutbgWPYAhbv4/view?usp=sharing"
+        "lng": "https://drive.google.com/file/d/1QixTlUHdFbEMsPoCs91hOLbSpAx6QYhQ/view?usp=sharing"
     }
 
 

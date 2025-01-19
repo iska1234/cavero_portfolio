@@ -3,7 +3,6 @@ import { GithubIcon, LinkedInIcon, PinterestIcon, TwitterIcon } from "@/componen
 export const getLinks = (t: (key: string) => string) => [
   { href: "/", title: t("navbar.title1"), className: "mr-4" },
   { href: "/about", title: t("navbar.title2"), className: "mx-4" },
-  { href: "/services", title: t("navbar.title5"), className: "mx-4" },
   { href: "/projects", title: t("navbar.title3"), className: "mx-4" },
   { href: "/articles", title: t("navbar.title4"), className: "ml-4" },
 ];

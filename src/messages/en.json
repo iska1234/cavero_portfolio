@@ -76,7 +76,13 @@
         "visit":"Visit the Project",
         "feature":"Featured Project",
         "normal":"Project",
-        "progress":"Project (Deploy in Progress)"
+        "progress":"Project (Deploy in Progress)",
+        "summary":{
+            "summary1":"The project is a CRM (Customer Relationship Management) built with React and TypeScript for the frontend, while the backend uses Node.js, Express and MongoDB. The application is designed to manage customer relationships, allowing efficient tracking of information and interactions. Additionally, it uses sockets for real-time communication, allowing instant updates between client and server, improving user experience and data management efficiency.",
+            "summary2":"This project is a project and task management application, developed with Angular on the frontend and Node.js with TypeScript on the backend. It uses PostgreSQL as a database to store the information. It includes features such as viewing projects with Gantt charts, timelines, meeting scheduling, and file uploads. The application makes it easy to organize and track tasks, allowing users to manage their projects efficiently and collaborate in real time.",
+            "summary3":"The Support Guide project is a guide application for basic knowledge in the support role, developed with React for the frontend and Node.js for the backend. The goal of the guide is to provide a structure for learning and understanding the fundamentals of the support role. The application provides access to support-related resources and tutorials, while the backend in Node.js manages the logic and interactions necessary to maintain and serve the frontend data.",
+            "summary4":"The Banco de la Peseta project is a digital banking application developed using Angular for the frontend and Spring Boot for the backend. It aims to provide users with a seamless banking experience, offering intuitive interfaces and comprehensive functionalities. With features such as account management, fund transfers, bill payment and more, Banco de la Peseta prioritizes security and scalability to ensure a reliable platform for financial transactions."
+        }
     },
     "articles":{
         "title":"Articles Page",
@@ -84,12 +90,12 @@
         "subtitle":"All Articles"
     },
     "articleDetails":{
-        "route":"/articledetails",
+        "route":"articles",
         "title_article1":"Best Frontend Frameworks for Web Development in 2024",
         "title_article2":"Advanced ReactJS: Best Practices for React + Redux + Sagas"
     },
     "cvLink": {
-        "lng": "https://drive.google.com/file/d/1ZJegSoNuHJi9T5S_0lfw0O6mm3RSvSyH/view?usp=drive_link"
+        "lng": "https://drive.google.com/file/d/1VymZr8-2lP06fRF_U4Kl8SrK6Draz1Z0/view?usp=sharing"
     }
 
    

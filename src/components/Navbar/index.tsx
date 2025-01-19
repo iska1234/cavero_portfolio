@@ -2,17 +2,17 @@
 import React, { useState } from 'react'
 import Logo from './Logo'
 import CustomLink from './CustomLinks/CustomLink'
-import { useLocale, useTranslations } from 'next-intl'
+import { useTranslations } from 'next-intl'
 import { motion } from 'framer-motion'
 import { SwitchThemeButton } from '../SwitchThemeButton'
 import LanguageSelectorSwitcher from '../LanguageSelectorSwitcher'
-import { Locale } from '@/i18n/routing'
+
 import MobileMenu from './MobileMenu'
 import { getLinks, socialLinks } from '@/lib/constants/Navbar/NavbarLinks'
 import { getNavButtonStyles } from '@/lib/constants/Navbar/NavbarButtonStyles'
 
 const Navbar = () => {
-  const locale = useLocale()
+
   const t = useTranslations('')
   const [isOpen, setIsOpen] = useState(false);
 
@@ -63,12 +63,12 @@ const Navbar = () => {
           ))}
           <SwitchThemeButton />
           <div className="ml-6">
-            <LanguageSelectorSwitcher defaultValue="en" />
+            <LanguageSelectorSwitcher />
           </div>
         </nav>
       </div>
 
-      {isOpen ? <MobileMenu handleClick={handleClick} locale={locale as Locale} /> : null}
+      {isOpen ? <MobileMenu handleClick={handleClick}/> : null}
       <div className="absolute left-[50%] translate-x-[-50%] pt-2">
         <Logo />
       </div>

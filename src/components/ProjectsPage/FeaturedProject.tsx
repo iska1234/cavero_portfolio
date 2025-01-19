@@ -2,13 +2,23 @@ import { Link } from "@/i18n/routing";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { GithubIcon } from "../Navbar/NavIcons";
-
+import TooltipComponent from "../TooltipProvider";
 
 interface FeaturedProjectProps {
-    type: string; title: string; summary: string; img: string; link: string; github: string;
+    type: string;
+    title: string;
+    summary: string;
+    img: string;
+    link: string;
+    github: string;
+    frontendIcons?: string[];
+    backendIcons?: string[];
+    databaseIcons?: string[];
 }
 
-const FeaturedProject: React.FC<FeaturedProjectProps> = ({ type, title, summary, img, link, github }) => {
+const FeaturedProject: React.FC<FeaturedProjectProps> = ({ type, title, summary, img, link, github, frontendIcons,
+    backendIcons,
+    databaseIcons, }) => {
     const t = useTranslations();
     return (
 
@@ -32,6 +42,77 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({ type, title, summary,
                     <h2 className="my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm">{title}</h2>
                 </Link>
                 <p className="my-2 font-medium text-justify text-dark dark:text-light sm:text-sm">{summary}</p>
+                <div className="flex gap-2 w-full justify-between py-4">
+                    <div className="flex flex-col gap-1 ">
+                        <p className="font-semibold">Tecnologias Frontend</p>
+                        <div className="grid grid-cols-4">
+                            {frontendIcons?.map((icon, index) => (
+                                 <TooltipComponent
+                                 key={index} 
+                                 content={ 
+                                   <span className={`font-semibold text-md capitalize px-2 font-primarySemibold border-transparent text-center  mt-2 w-36 opacity-100 transition-opacity duration-300`}>
+                                   {icon}
+                                   </span>
+                                 }
+                                 triggerContent={
+                                    <img  src={`../${icon}.svg`} className="w-[30px]" />
+                                 }
+                                 contentClass="bg-black text-white"
+                                 triggerClass=""
+                                 side="top"
+                                 delayDuration={100}
+                                 />
+                              
+                            ))}
+                        </div>
+                    </div>
+                    <div className="flex flex-col gap-1">
+                        <p className="font-semibold">Tecnologias Backend</p>
+                        <div className="grid grid-cols-4 gap-2">
+                            {backendIcons?.map((icon, index) => (
+                             
+                                <TooltipComponent
+                                key={index} 
+                                 content={ 
+                                   <span className={`font-semibold text-md capitalize px-2 font-primarySemibold border-transparent text-center  mt-2 w-36 opacity-100 transition-opacity duration-300`}>
+                                   {icon}
+                                   </span>
+                                 }
+                                 triggerContent={
+                                    <img src={`../${icon}.svg`} className="w-[30px]" />
+                                 }
+                                 contentClass="bg-black text-white"
+                                 triggerClass=""
+                                 side="top"
+                                 delayDuration={100}
+                                 />
+                            ))}
+                        </div>
+                    </div>
+                    <div className="flex flex-col gap-1">
+                        <p className="font-semibold">Bases de datos</p>
+                        <div className="grid grid-cols-4">
+                            {databaseIcons?.map((icon, index) => (
+                                   <TooltipComponent
+                                   key={index} 
+                                   content={ 
+                                     <span className={` font-semibold text-md capitalize px-2 font-primarySemibold border-transparent text-center  mt-2 w-36 opacity-100 transition-opacity duration-300`}>
+                                     {icon}
+                                     </span>
+                                   }
+                                   triggerContent={
+                                    <img src={`../${icon}.svg`} className="w-[30px]" />
+                                   }
+                                   contentClass="bg-black text-white"
+                                   triggerClass=""
+                                   side="top"
+                                   delayDuration={100}
+                                   />
+                             
+                            ))}
+                        </div>
+                    </div>
+                </div>
                 <div className="mt-2 flex items-center">
                     <Link target={'_blank'} href={github} className='w-10'>
                         <GithubIcon />
@@ -42,6 +123,7 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({ type, title, summary,
                         {t("projects.visit")}
                     </Link>
                 </div>
+
             </div>
         </article>
     )

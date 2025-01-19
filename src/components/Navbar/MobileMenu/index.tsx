@@ -2,16 +2,14 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import CustomMobileLink from '../CustomLinks/CustomMobileLink'
 import LanguageSelectorSwitcher from '@/components/LanguageSelectorSwitcher'
-import { Locale } from '@/i18n/routing'
 import { getNavMobileLinks, socialMobileLinks } from '@/lib/constants/Navbar/MobileNavbarLinks'
 import { useTranslations } from 'next-intl'
 
 interface MobileMenuProps {
     handleClick: VoidFunction;
-    locale: Locale
 }
 
-const MobileMenu: React.FC<MobileMenuProps> = ({ handleClick, locale }) => {
+const MobileMenu: React.FC<MobileMenuProps> = ({ handleClick }) => {
     
     const t = useTranslations("");
     const navMobileLinks = getNavMobileLinks(t);
@@ -72,7 +70,6 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ handleClick, locale }) => {
 
             <div className="mt-8">
                 <LanguageSelectorSwitcher
-                    defaultValue={locale}
 
                 />
             </div>
