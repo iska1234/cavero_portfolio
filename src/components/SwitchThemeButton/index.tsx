@@ -3,7 +3,7 @@
 import * as React from "react";
 import { useTheme } from "next-themes";
 
-import { Button } from "@/components/ui/button";
+
 import { SunIcon, MoonIcon } from "../Navbar/NavIcons";
 
 export function SwitchThemeButton() {
@@ -14,12 +14,10 @@ export function SwitchThemeButton() {
   const isDarkMode = currentTheme === "dark";
 
   return (
-    <Button
-
-      size={"icon"}
+    <button
       onClick={() => setTheme(isDarkMode ? "light" : "dark")}
-      className={`ml-3 flex items-center justify-center rounded-full p-1
-        ${isDarkMode ? "bg-light text-dark" : "bg-dark text-light"}
+      className={` xs:mt-2 ml-3 flex items-center justify-center rounded-full p-1
+        ${isDarkMode ? "bg-light text-dark hover:bg-light" : "bg-dark text-light hover:bg-dark"}
       `}
     >
       {isDarkMode ? (
@@ -27,6 +25,6 @@ export function SwitchThemeButton() {
       ) : (
         <MoonIcon className="fill-light" />
       )}
-    </Button>
+    </button>
   );
 }

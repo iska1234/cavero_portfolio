@@ -9,6 +9,7 @@ import { useTranslations } from "next-intl";
 import Head from 'next/head'
 import TransitionEffect from "@/components/TransitionEffect";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const t = useTranslations();
@@ -19,8 +20,8 @@ export default function Home() {
         <meta name="description" content="Portfolio SICEH" />
       </Head>
       <TransitionEffect />
-      <main className='flex  h-full items-center text-dark w-full  dark:text-light 2xl'>
-        <Layout className='pt-5'>
+      <main className='flex flex-col h-full items-center text-dark w-full  dark:text-light'>
+        <Layout className='min-h-screen flex py-8 flex-col gap-20'>
           <Navbar />
           <div className="flex gap-8 items-center justify-between w-full lg:flex-col">
             <div className="w-1/2 md:w-full rounded-full bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600  shadow-lg overflow-hidden imgPic p-8">
@@ -51,8 +52,9 @@ export default function Home() {
 
             </div>
           </div>
+       
         </Layout>
-
+        <Footer />
         <HireMe />
 
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">

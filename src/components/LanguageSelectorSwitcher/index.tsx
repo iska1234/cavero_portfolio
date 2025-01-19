@@ -1,22 +1,16 @@
 "use client"
 import { Locale, usePathname, useRouter } from '@/i18n/routing';
-import React, { useState } from 'react'
+import React from 'react'
 import { Button } from '../ui/button';
+import { useLocale } from 'next-intl';
 
-interface LanguageSelectorSwitcherProps {
-    defaultValue: Locale;
-}
-
-const LanguageSelectorSwitcher: React.FC<LanguageSelectorSwitcherProps> = ({ defaultValue }) => {
+const LanguageSelectorSwitcher: React.FC = () => {
 
     const router = useRouter()
-
     const pathname = usePathname()
-    const [language, setLanguage] = useState<Locale>(defaultValue);
+    const language = useLocale(); 
 
     function handleLanguageChange(nextLocale: Locale) {
-        setLanguage(nextLocale);
-
         router.replace(
             {
                 pathname,
