@@ -2,7 +2,7 @@ import { Globe } from 'lucide-react'
 import { useLocale } from 'next-intl'
 import React from 'react'
 import LanguageSelectorSwitcher from '../LanguageSelectorSwitcher'
-import { Locale, routing } from '@/i18n/routing'
+import { Locale } from '@/i18n/routing'
 
 const LanguageSwitcher = () => {
 
