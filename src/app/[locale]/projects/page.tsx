@@ -1,4 +1,3 @@
-"use client"
 import AnimatedText from "@/components/AnimatedText";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -6,17 +5,26 @@ import FeaturedProject from "@/components/ProjectsPage/FeaturedProject";
 import Project from "@/components/ProjectsPage/Project";
 import TransitionEffect from "@/components/TransitionEffect";
 import Layout from "@/layout";
+import { Metadata } from "next";
 import { useTranslations } from "next-intl";
-import Head from "next/head";
+
+export const metadata: Metadata = {
+    title: "Proyectos | Innovación y creatividad en desarrollo web",
+    description: "Explora proyectos destacados como CRMs, aplicaciones de gestión y plataformas de banca digital, creados con React, Angular, Node.js y más",
+    alternates: {
+      canonical: "https://cavero-portfolio.vercel.app/projects",
+      languages: {
+         es: "https://cavero-portfolio.vercel.app/es/projects",
+         en:"https://cavero-portfolio.vercel.app/en/projects"
+      }
+    },
+};
 
 export default function Projects() {
     const t = useTranslations();
+    
     return (
         <>
-        <Head>
-            <title>{t("projects.title")}</title>
-            <meta name='description' content="any description" />
-        </Head>
         <TransitionEffect />
         <main className='w-full flex flex-col items-center justify-center dark:text-light'>
         <Layout className='min-h-screen flex py-8 flex-col gap-20'>

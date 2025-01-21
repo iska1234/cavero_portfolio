@@ -1,24 +1,30 @@
-"use client"
-
 import AnimatedText from "@/components/AnimatedText";
 import HireMe from "@/components/HireMe";
 import { LinkArrow } from "@/components/Navbar/NavIcons";
 import { Link } from "@/i18n/routing";
 import Layout from "@/layout";
 import { useTranslations } from "next-intl";
-import Head from 'next/head'
 import TransitionEffect from "@/components/TransitionEffect";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Portafolio Cavero | Transformando ideas en realidad con código y diseño",
+  description: "Descubre el portafolio de un desarrollador full-stack apasionado. Explora proyectos innovadores y artículos sobre React.js y desarrollo web",
+  alternates: {
+    canonical: "https://cavero-portfolio.vercel.app",
+    languages: {
+       es: "https://cavero-portfolio.vercel.app/es",
+       en:"https://cavero-portfolio.vercel.app/en"
+    }
+  },
+};
 
 export default function Home() {
   const t = useTranslations();
   return (
     <>
-      <Head>
-        <title>{t("index.title")}</title>
-        <meta name="description" content="Portfolio SICEH" />
-      </Head>
       <TransitionEffect />
       <main className='flex flex-col h-full items-center text-dark w-full  dark:text-light'>
         <Layout className='min-h-screen flex py-8 flex-col gap-20'>

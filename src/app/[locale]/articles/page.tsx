@@ -1,5 +1,3 @@
-"use client"
-
 import AnimatedText from "@/components/AnimatedText";
 import Article from "@/components/ArticlePage/Article";
 import FeaturedArticle from "@/components/ArticlePage/FeaturedArticle";
@@ -8,8 +6,21 @@ import Navbar from "@/components/Navbar";
 import TransitionEffect from "@/components/TransitionEffect";
 import Layout from "@/layout";
 import { articlesData } from "@/lib/constants/Articles/article";
+import { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import Head from "next/head";
+
+export const metadata: Metadata = {
+    title: "Artículos | Aprende sobre frameworks y desarrollo avanzado",
+    description: "Descubre artículos sobre los mejores frameworks frontend de 2024 y prácticas avanzadas en ReactJS, Redux y Sagas",
+    alternates: {
+      canonical: "https://cavero-portfolio.vercel.app/articles",
+      languages: {
+         es: "https://cavero-portfolio.vercel.app/es/articles",
+         en:"https://cavero-portfolio.vercel.app/en/articles"
+      }
+    },
+};
 
 export default function Articles() {
     const t = useTranslations();

@@ -1,3 +1,4 @@
+"use client"
 import { Link } from "@/i18n/routing";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";

@@ -1,4 +1,3 @@
-"use client"
 import Education from '@/components/AboutPage/Education';
 import Experiences from '@/components/AboutPage/Experiences';
 import Skills from '@/components/AboutPage/Skills';
@@ -8,18 +7,26 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import TransitionEffect from '@/components/TransitionEffect';
 import Layout from '@/layout';
+import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
-import Head from 'next/head';
 import React from 'react'
+
+export const metadata: Metadata = {
+  title: "Sobre Mí | Siceh Developer - Experiencias digitales únicas",
+  description: "Conoce a Siceh Developer, un desarrollador Fullstack y diseñador UI/UX con 3 años de experiencia creando soluciones digitales innovadoras y centradas en el usuario",
+  alternates: {
+    canonical: "https://cavero-portfolio.vercel.app/about",
+    languages: {
+       es: "https://cavero-portfolio.vercel.app/es/about",
+       en:"https://cavero-portfolio.vercel.app/en/about"
+    }
+  },
+};
 
 export default function About() {
   const t  = useTranslations();
     return (
       <>
-      <Head>
-        <title>{t("about.title")}</title>
-        <meta name='description' content='any description' />
-      </Head>
       <TransitionEffect />
       <main className='flex w-full flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-10'>
